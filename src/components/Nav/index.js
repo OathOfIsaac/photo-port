@@ -6,7 +6,7 @@ function Nav(props) {
     categories = [],
     setCurrentCategory,
     currentCategory,
-  } = props;
+  } = props;//feature close
 
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentCategory.name);
